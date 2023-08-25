@@ -1,0 +1,47 @@
+.homeHeader {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundImage {
+    width: 100vw;
+    height: 150vh;
+    position: absolute;
+    top: -300px;
+    filter: brightness(60%);
+}
+
+.backgroundImage img {
+    object-fit: cover;
+}
+
+.intro {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-top: 35vh;
+    margin-left: 10vw;
+}
+
+.intro h1 {
+    z-index: 3;
+    color: rgb(86, 218, 255);
+    font-size: 5vw;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.cover {
+    bottom: -150vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+}
+
+.footer {
+    background-color: aliceblue;
+}
