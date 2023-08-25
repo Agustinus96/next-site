@@ -46,7 +46,6 @@ function AnimatedText({children}) {
                 scrub: true,
                 start: "-=500vw botton",
                 end: "bottom+=600px bottom",
-                markers: true
             }, 
             opacity: 0,
             left: "-600px",

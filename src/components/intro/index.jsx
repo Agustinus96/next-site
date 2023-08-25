@@ -17,7 +17,6 @@ export default function Intro() {
         scrub: true,
         start: "top",
         end: "+=30opx",
-        mark: true,
       },
     });
     timeline
@@ -31,7 +30,6 @@ export default function Intro() {
       trigger: background.current,
       pin: true,
       start: "top -=300px",
-      markers: true
     });
   }, []);
 
